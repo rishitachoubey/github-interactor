@@ -34,8 +34,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './public/index.html',
-      favicon: './public/favicon.ico',
+      template: './public/index.html'
     }),
   ],
   optimization: {
@@ -45,7 +44,7 @@ module.exports = {
   },
   devServer: {
     historyApiFallback: true,
-    port: 8080,
+    port: 3000,
     hot: true,
     open: true,
   },
